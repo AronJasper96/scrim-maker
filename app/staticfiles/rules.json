@@ -1,0 +1,55 @@
+{
+    "compRules": {
+      "scrims": {
+        "horarios": {
+          "checkInAbre": "11:00 AM GMT-3",
+          "checkInFecha": "7:00 PM GMT-3",
+          "inicioScrim": "8:05 PM GMT-3",
+          "servidor": "São Paulo"
+        },
+        "regras": {
+          "gerais": [
+            {
+              "titulo": "Prioridade",
+              "descricao": "Top 5 do dia anterior > WL do dia anterior > Ordem de Checkin"
+            },
+            {
+              "titulo": "Ausência",
+              "descricao": "Time incompleto no lobby até 8:05 PM = Low Priority. Drop-out antes das 19h, caso contrário, Low Priority por 1 dia (mais tempo em caso de reincidência)."
+            },
+            {
+              "titulo": "Comportamento",
+              "descricao": "Scrims sem qualidade = lobby encerrado. Times 'trolls' = Low Priority por 1 dia (mais tempo em caso de reincidência)."
+            },
+            {
+              "titulo": "Quitar",
+              "descricao": "Quitar durante a scrim = Low Priority por 1 dia (mais tempo em caso de reincidência)."
+            },
+            {
+              "titulo": "Número de Equipes",
+              "descricao": "Mínimo de 10 Esquadrões na Rodada 3. Aviso em caso de número insuficiente. Lobby encerrado se persistir."
+            },
+            {
+              "titulo": "Mortes",
+              "descricao": "Equipes com mais mortes em lobby encerrado precocemente = Low Priority por 1 semana."
+            }
+          ],
+          "dropSpots": [
+            {
+              "titulo": "Mudança de Drop",
+              "descricao": "Mudança aleatória durante a scrim NÃO permitida. Avise o HOST antes de mudar. Mudança para POI livre, se nenhum disponível, permaneça no seu POI."
+            },
+            {
+              "titulo": "Contests",
+              "descricao": "No máximo 2 contests por mapa e 2 equipes por contest."
+            }
+          ]
+        },
+        "observacoes": {
+          "titulo": "Novas Regras",
+          "descricao": "Novas regras podem ser adicionadas. Sigam as regras para uma scrim de melhor qualidade."
+        }
+      }
+    }
+  }
+  
